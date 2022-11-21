@@ -1,0 +1,28 @@
+{
+	"name": "drawr-xd",
+	"version": "0.0.0-next.1",
+	"description": "",
+	"type": "module",
+	"scripts": {},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"@nextools/suppress-experimental-warnings": "^0.1.0",
+		"@types/node": "^18.0.4",
+		"@typescript-eslint/eslint-plugin": "^5.30.6",
+		"@typescript-eslint/parser": "^5.30.6",
+		"eslint": "^8.20.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-config-xo": "^0.41.0",
+		"eslint-config-xo-typescript": "^0.51.1",
+		"eslint-plugin-only-warn": "^1.0.3",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-typescript-sort-keys": "^2.1.0",
+		"prettier": "npm:@btmills/prettier@^2.7.1",
+		"prettier-plugin-jsdoc": "^0.3.38",
+		"ts-patch": "^2.0.2",
+		"typescript": "^4.9.3"
+	},
+	"dependencies": {}
+}

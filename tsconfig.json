@@ -1,0 +1,50 @@
+{
+	"include": [
+		"./**/*.js",
+		"./**/*.ts",
+	],
+	"exclude": [
+		"node_modules",
+	],
+	"compilerOptions": {
+		"allowJs": true,
+		"baseUrl": "",
+		"checkJs": false,
+		"lib": [
+			"es2017",
+		],
+		"outDir": "C:/Users/sxxov/AppData/Local/Facebook/Spark AR Studio/cache/Scripting/out-dir",
+		"paths": {
+			"*": [
+				"C:/Users/sxxov/AppData/Local/Facebook/Spark AR Studio/cache/Scripting/skylight-typedefs/475769273754357a/*",
+				"C:/Users/sxxov/AppData/Local/Facebook/Spark AR Studio/cache/Scripting/skylight-node_modules/*",
+			]
+		},
+		"typeRoots": [
+			"C:/Users/sxxov/AppData/Local/Facebook/Spark AR Studio/cache/Scripting/skylight-node_modules/@types"
+		],
+		"types": [
+			"node",
+		],
+		"esModuleInterop": true,
+		"isolatedModules": true,
+		"module": "es2015",
+		"target": "es2017",
+		"sourceMap": true,
+		"moduleResolution": "node",
+		"noEmit": false,
+		"strict": true,
+		"skipLibCheck": true,
+		"resolveJsonModule": true,
+		"useDefineForClassFields": true,
+		"allowSyntheticDefaultImports": true,
+		"importsNotUsedAsValues": "error",
+		"experimentalDecorators": true,
+		"noImplicitOverride": true,
+		"forceConsistentCasingInFileNames": true,
+		"useUnknownInCatchVariables": true,
+		"exactOptionalPropertyTypes": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"noUncheckedIndexedAccess": true,
+	},
+}
